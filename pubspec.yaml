@@ -1,0 +1,70 @@
+name: tempsensorapp
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  syncfusion_flutter_charts: ^26.1.42
+  fl_chart: ^0.68.0
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: OpenSansBold
+      fonts:
+        - asset: fonts/open-sans.bold.ttf
+    - family: HysteriaRollersSansSerif
+      fonts:
+        - asset: fonts/HysteriaRollersSansSerif.ttf
+    - family: Merriweather
+      fonts:
+        - asset: fonts/Merriweather-Regular.ttf
+    - family: MerriweatherBlack
+      fonts:
+        - asset: fonts/Merriweather-Black.ttf
+    - family: Cocogoose Pro
+      fonts:
+        - asset: fonts/cocogoose/Cocogoose-Pro-Regular-trial.ttf
+        - asset: fonts/cocogoose/Cocogoose-Pro-Bold-trial.ttf
+          weight: 700 # Assuming bold weight, adjust as needed
+        - asset: fonts/cocogoose/Cocogoose-Pro-Bold-Italic-trial.ttf
+          weight: 700 # Bold weight, italic style
+        - asset: fonts/cocogoose/Cocogoose-Pro-Italic-trial.ttf
+          weight: 400 # Assuming italic weight, adjust as needed
+        - asset: fonts/cocogoose/Cocogoose-Pro-Light-trial.ttf
+          weight: 300 # Assuming light weight, adjust as needed
+        - asset: fonts/cocogoose/Cocogoose-Pro-Light-Italic-trial.ttf
+          weight: 300 # Light weight, italic style
+        - asset: fonts/cocogoose/Cocogoose-Pro-Semilight-trial.ttf
+          weight: 500 # Assuming semilight weight, adjust as needed
+        - asset: fonts/cocogoose/Cocogoose-Pro-Semilight-Italic-trial.ttf
+          weight: 500 # Semi-light weight, italic style
+        - asset: fonts/cocogoose/Cocogoose-Pro-Thin-trial.ttf
+          weight: 100 # Assuming thin weight, adjust as needed
+        - asset: fonts/cocogoose/Cocogoose-Pro-Thin-Italic-trial.ttf
+          weight: 100 # Thin weight, italic style
+        - asset: fonts/cocogoose/Cocogoose-Pro-Ultralight-trial.ttf
+          weight: 200 # Assuming ultralight weight, adjust as needed
+        - asset: fonts/cocogoose/Cocogoose-Pro-Ultralight-Italic-trial.ttf
+          weight: 200 # Ultralight weight, italic style
+        - asset: fonts/cocogoose/Cocogoose-Pro-Darkmode-trial.ttf
+          weight: 600 # Assuming dark mode weight, adjust as needed
+        - asset: fonts/cocogoose/Cocogoose-Pro-Darkmode-Italic-trial.ttf
+          weight: 600 # Dark mode weight, italic style
+        - asset: fonts/cocogoose/Cocogoose-Pro-Letterpress-Regular-trial.ttf
+          weight: 400 # Assuming letterpress regular weight, adjust as needed
