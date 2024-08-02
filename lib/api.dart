@@ -29,6 +29,7 @@ Future<List<Sensor>> getsensorsList(String? filtertype) async {
           distinctSensors.add(sensor);
         }
       }
+      
       print(
           'monthly  : ${distinctSensors.length}  outcomes >> ${distinctSensors.first.date}       ---   ${distinctSensors.last.date}');
       return distinctSensors.getRange(0, 31).toList();
